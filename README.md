@@ -29,22 +29,23 @@ This project demonstrates how to set up a **self-hosted GitHub Actions runner** 
 
 | Challenge                              | Solution                                                                     |
 | -------------------------------------- | ---------------------------------------------------------------------------- |
-| Workflow failed due to node not found. | Installed nodejs and npm `sudo apt update && sudo apt install -y nodejs npm` |
+| Build failed due to node not found. | Installed nodejs and npm `sudo apt update && sudo apt install -y nodejs npm` |
 | Permission errors                      | Ran the terminal with admin/root privileges                               |
 | Workflow not triggering                | Ensured correct branch trigger (`on: push to main`) |
 
-### Challenge: Workflow failed due to node not found
+### Challenge: Build failed due to `node: command not found`
+
 - **Run on host server:**
     ```
     sudo apt update
     sudo apt install -y nodejs npm
     ```
-
+  
     <img width="920" height="885" alt="image" src="https://github.com/user-attachments/assets/a4ffdf9d-0e01-4256-bafd-caa2338882be" />
 
-## Solution: Workflow successful on installing nodejs and npm
+### Solution: Workflow successful on installing nodejs and npm
 
-<img width="920" height="740" alt="image" src="https://github.com/user-attachments/assets/118f7d0e-17a4-4028-bb11-7c303cdc64bf" />
+   <img width="920" height="740" alt="image" src="https://github.com/user-attachments/assets/118f7d0e-17a4-4028-bb11-7c303cdc64bf" />
 
 ---
 
