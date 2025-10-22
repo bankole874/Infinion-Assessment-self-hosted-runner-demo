@@ -17,4 +17,3 @@ jobs:
           uname -a
           echo "Node version:"
           node -v
-
