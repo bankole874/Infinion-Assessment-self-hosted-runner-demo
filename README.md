@@ -5,3 +5,6 @@
 
 
 <img width="928" height="570" alt="image" src="https://github.com/user-attachments/assets/6f607353-3623-49f5-b7f5-56fd79a94305" />
+
+## PIPELINE FAILED DUE TO NODE NOT FOUND
+<img width="920" height="885" alt="image" src="https://github.com/user-attachments/assets/a4ffdf9d-0e01-4256-bafd-caa2338882be" />
