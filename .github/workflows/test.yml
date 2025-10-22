@@ -1,0 +1,20 @@
+name: Self-Hosted Runner Test
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Print system info
+        run: |
+          echo "Running on a self-hosted runner!"
+          uname -a
+          echo "Node version:"
+          node -v
+
