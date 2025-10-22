@@ -8,3 +8,10 @@
 
 ## PIPELINE FAILED DUE TO NODE NOT FOUND
 <img width="920" height="885" alt="image" src="https://github.com/user-attachments/assets/a4ffdf9d-0e01-4256-bafd-caa2338882be" />
+
+## PIPE SUCCESSFUL ON INSTALLING NODE ON THE SELF-HOSTED RUNNER
+```
+sudo apt update
+sudo apt install -y nodejs npm
+```
+<img width="920" height="740" alt="image" src="https://github.com/user-attachments/assets/118f7d0e-17a4-4028-bb11-7c303cdc64bf" />
